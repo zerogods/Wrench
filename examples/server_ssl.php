@@ -38,7 +38,7 @@ Wrench\Util\Ssl::generatePEMFile(
 );
 
 // User can use tls in place of ssl
-$server = new \Wrench\Server('wss://127.0.0.1:8000/', array(
+$server = new \Wrench\Server('wss://web-socket.mtevx.com:8443/', array(
      'connection_manager_options' => array(
          'socket_master_options' => array(
              'server_ssl_local_cert'        => $pemFile,
